@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+<!--  sebagain parent -->
+  <groupId>noval-surya-mandala</groupId>
+  <artifactId>belajar-apache-maven</artifactId>
+  <version>1.0-SNAPSHOT</version>
+<!--  mengubah sebagai pom atau multi modul dan tidak jar-->
+  <packaging>pom</packaging>
+<!--  mendaftarkan module - modulenya -->
+  <modules>
+    <module>belajar-apache-maven-app</module>
+    <module>belajar-apache-maven-data</module>
+  </modules>
+
+  <name>belajar-apache-maven</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
+<!--    dari pada hard cored mending dibuat di properties dan pangguil menggunakan ${nama atribute}-->
+    <junit.version>5.4.0</junit.version>
+    <gson.version>2.10</gson.version>
+  </properties>
+
+<!-- semua dependecy akan diturunkan ke childnya-->
+  <dependencyManagement>
+    <dependencies>
+<!--      mendaftarkan bawaan modul-->
+      <dependency>
+        <groupId>noval-surya-mandala</groupId>
+        <artifactId>belajar-apache-maven-data</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>${junit.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>${gson.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.8.2</version>
+        </plugin>
+        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.7.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+<!--  assembely plugin -->
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.4.2</version>
+          <configuration>
+            <descriptorRefs>
+              <descriptorRef>jar-with-dependencies</descriptorRef>
+            </descriptorRefs>
+<!--  Setting main class-->
+            <archive>
+              <manifest>
+                <mainClass>noval.mandala.maven.App</mainClass>
+              </manifest>
+            </archive>
+          </configuration>
+          <executions>
+<!--    mempackage beserta dependencynya -->
+            <execution>
+              <id>make-assembly</id> <!-- this is used for inheritance merges -->
+              <phase>package</phase> <!-- bind to the packaging phase -->
+              <goals>
+                <goal>single</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+
+<!--  untuk menambah repository diluar maven misal punya sendiri -->
+<!--  <repositories>-->
+<!--    <repository>-->
+<!--      <id></id>-->
+<!--      <name></name>-->
+<!--      <url></url>-->
+<!--    </repository>-->
+<!--  </repositories>-->
+</project>

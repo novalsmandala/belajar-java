@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: noval.mandala.test.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.111 s - in noval.mandala.test.CalculatorTest

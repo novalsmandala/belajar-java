@@ -1,0 +1,9 @@
+TodoList
+1. Membaca Buku
+2. Membuat Course
+3. Makan Siang
+4. Lain - Lain
+
+Action:
+- Hapus
+- Tambah
