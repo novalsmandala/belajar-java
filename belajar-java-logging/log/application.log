@@ -1,0 +1,85 @@
+09:24:28.782 [main] TRACE n.s.m.l.LevelTest - trace
+09:24:28.785 [main] DEBUG n.s.m.l.LevelTest - debug
+09:24:28.785 [main] INFO  n.s.m.l.LevelTest - info
+09:24:28.786 [main] WARN  n.s.m.l.LevelTest - warn
+09:24:28.787 [main] ERROR n.s.m.l.LevelTest - error
+2022-12-24 09:25:27.057 [main] TRACE n.s.m.l.LevelTest - trace
+2022-12-24 09:25:27.059 [main] DEBUG n.s.m.l.LevelTest - debug
+2022-12-24 09:25:27.060 [main] INFO  n.s.m.l.LevelTest - info
+2022-12-24 09:25:27.062 [main] WARN  n.s.m.l.LevelTest - warn
+2022-12-24 09:25:27.062 [main] ERROR n.s.m.l.LevelTest - error
+2022-12-24 09:38:04.375 [main] INFO  n.s.m.l.MyController - 0e596d14-3b9d-4738-a113-57e94748854e - Controller Save
+2022-12-24 09:38:04.380 [main] INFO  n.s.m.l.MyService - 0e596d14-3b9d-4738-a113-57e94748854e - Service Save
+2022-12-24 09:38:04.380 [main] INFO  n.s.m.l.MyRepository - 0e596d14-3b9d-4738-a113-57e94748854e - Repository Save
+2022-12-24 09:42:02.083 [main] INFO  n.s.m.l.MyController [] - 8a05e73c-441f-4da6-9569-77a81dbc59c6 - Controller Save
+2022-12-24 09:42:02.087 [main] INFO  n.s.m.l.MyService [] - 8a05e73c-441f-4da6-9569-77a81dbc59c6 - Service Save
+2022-12-24 09:42:02.088 [main] INFO  n.s.m.l.MyRepository [] - 8a05e73c-441f-4da6-9569-77a81dbc59c6 - Repository Save
+2022-12-24 09:43:13.987 [main] INFO  n.s.m.l.MyController [] - 3aa3ea34-7642-4384-a758-cd5335230ce4 - Controller Save
+2022-12-24 09:43:13.989 [main] INFO  n.s.m.l.MyService [] - 3aa3ea34-7642-4384-a758-cd5335230ce4 - Service Save
+2022-12-24 09:43:13.990 [main] INFO  n.s.m.l.MyRepository [] - 3aa3ea34-7642-4384-a758-cd5335230ce4 - Repository Save
+2022-12-24 09:44:48.315 [main] INFO  n.s.m.l.MyController - [799e8cae-f56d-4914-a2d3-a1e786b036d8] - 799e8cae-f56d-4914-a2d3-a1e786b036d8 - Controller Save
+2022-12-24 09:44:48.319 [main] INFO  n.s.m.l.MyService - [799e8cae-f56d-4914-a2d3-a1e786b036d8] - 799e8cae-f56d-4914-a2d3-a1e786b036d8 - Service Save
+2022-12-24 09:44:48.320 [main] INFO  n.s.m.l.MyRepository - [799e8cae-f56d-4914-a2d3-a1e786b036d8] - 799e8cae-f56d-4914-a2d3-a1e786b036d8 - Repository Save
+2022-12-24 09:47:15.715 [main] INFO  n.s.m.l.MyController - [d6881bd4-f97c-4046-8b70-dac4ec76bf7a] - Controller Save
+2022-12-24 09:47:15.717 [main] INFO  n.s.m.l.MyService - [d6881bd4-f97c-4046-8b70-dac4ec76bf7a] - Service Save
+2022-12-24 09:47:15.717 [main] INFO  n.s.m.l.MyRepository - [d6881bd4-f97c-4046-8b70-dac4ec76bf7a] - Repository Save
+2022-12-24 09:50:38.290 [Thread-0] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.292 [Thread-0] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.293 [Thread-0] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.291 [Thread-1] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.294 [Thread-1] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.294 [Thread-3] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.295 [Thread-1] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.295 [Thread-4] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.295 [Thread-3] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.295 [Thread-4] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.295 [Thread-4] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.295 [Thread-3] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.293 [Thread-2] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.297 [Thread-2] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.298 [Thread-2] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.299 [Thread-6] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.299 [Thread-6] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.300 [Thread-6] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.299 [Thread-5] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.302 [Thread-5] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.302 [Thread-5] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.303 [Thread-7] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.303 [Thread-8] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.304 [Thread-7] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.304 [Thread-7] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.304 [Thread-8] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.315 [Thread-8] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:50:38.316 [Thread-9] INFO  n.s.m.l.MyController - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Controller Save
+2022-12-24 09:50:38.316 [Thread-9] INFO  n.s.m.l.MyService - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Service Save
+2022-12-24 09:50:38.317 [Thread-9] INFO  n.s.m.l.MyRepository - [097ac09f-cdf9-4bb8-afe4-61d2174bdc36] - Repository Save
+2022-12-24 09:51:02.088 [Thread-6] INFO  n.s.m.l.MyController - [ac63aa1c-78b9-412d-8f73-3e1c9dbbcde2] - Controller Save
+2022-12-24 09:51:02.088 [Thread-0] INFO  n.s.m.l.MyController - [6b01cecf-3323-4dac-bd83-f712ea1e0f83] - Controller Save
+2022-12-24 09:51:02.087 [Thread-3] INFO  n.s.m.l.MyController - [6e5df2e6-61cb-483a-828a-0791fb70d338] - Controller Save
+2022-12-24 09:51:02.089 [Thread-3] INFO  n.s.m.l.MyService - [6e5df2e6-61cb-483a-828a-0791fb70d338] - Service Save
+2022-12-24 09:51:02.089 [Thread-3] INFO  n.s.m.l.MyRepository - [6e5df2e6-61cb-483a-828a-0791fb70d338] - Repository Save
+2022-12-24 09:51:02.086 [Thread-7] INFO  n.s.m.l.MyController - [85afb041-26dc-44a7-b556-4f17e11a3096] - Controller Save
+2022-12-24 09:51:02.086 [Thread-5] INFO  n.s.m.l.MyController - [aa3c26be-5e9b-4224-b524-14ccf87d8e3a] - Controller Save
+2022-12-24 09:51:02.090 [Thread-7] INFO  n.s.m.l.MyService - [85afb041-26dc-44a7-b556-4f17e11a3096] - Service Save
+2022-12-24 09:51:02.090 [Thread-0] INFO  n.s.m.l.MyService - [6b01cecf-3323-4dac-bd83-f712ea1e0f83] - Service Save
+2022-12-24 09:51:02.090 [Thread-0] INFO  n.s.m.l.MyRepository - [6b01cecf-3323-4dac-bd83-f712ea1e0f83] - Repository Save
+2022-12-24 09:51:02.089 [Thread-6] INFO  n.s.m.l.MyService - [ac63aa1c-78b9-412d-8f73-3e1c9dbbcde2] - Service Save
+2022-12-24 09:51:02.090 [Thread-6] INFO  n.s.m.l.MyRepository - [ac63aa1c-78b9-412d-8f73-3e1c9dbbcde2] - Repository Save
+2022-12-24 09:51:02.088 [Thread-1] INFO  n.s.m.l.MyController - [7112e529-d307-4ad9-a698-a5cf1f45ae21] - Controller Save
+2022-12-24 09:51:02.090 [Thread-5] INFO  n.s.m.l.MyService - [aa3c26be-5e9b-4224-b524-14ccf87d8e3a] - Service Save
+2022-12-24 09:51:02.090 [Thread-1] INFO  n.s.m.l.MyService - [7112e529-d307-4ad9-a698-a5cf1f45ae21] - Service Save
+2022-12-24 09:51:02.090 [Thread-5] INFO  n.s.m.l.MyRepository - [aa3c26be-5e9b-4224-b524-14ccf87d8e3a] - Repository Save
+2022-12-24 09:51:02.090 [Thread-7] INFO  n.s.m.l.MyRepository - [85afb041-26dc-44a7-b556-4f17e11a3096] - Repository Save
+2022-12-24 09:51:02.091 [Thread-1] INFO  n.s.m.l.MyRepository - [7112e529-d307-4ad9-a698-a5cf1f45ae21] - Repository Save
+2022-12-24 09:51:02.093 [Thread-2] INFO  n.s.m.l.MyController - [4090657a-6378-4f29-baf6-eb5a14208e5b] - Controller Save
+2022-12-24 09:51:02.100 [Thread-2] INFO  n.s.m.l.MyService - [4090657a-6378-4f29-baf6-eb5a14208e5b] - Service Save
+2022-12-24 09:51:02.100 [Thread-2] INFO  n.s.m.l.MyRepository - [4090657a-6378-4f29-baf6-eb5a14208e5b] - Repository Save
+2022-12-24 09:51:02.093 [Thread-4] INFO  n.s.m.l.MyController - [d3b24550-41cd-4924-86dc-68dd74d42985] - Controller Save
+2022-12-24 09:51:02.099 [Thread-9] INFO  n.s.m.l.MyController - [c13e57f6-037e-47b8-8802-ea3eb7d9829e] - Controller Save
+2022-12-24 09:51:02.105 [Thread-8] INFO  n.s.m.l.MyController - [4021881a-feae-4224-9069-8ec2006f6b58] - Controller Save
+2022-12-24 09:51:02.105 [Thread-4] INFO  n.s.m.l.MyService - [d3b24550-41cd-4924-86dc-68dd74d42985] - Service Save
+2022-12-24 09:51:02.105 [Thread-9] INFO  n.s.m.l.MyService - [c13e57f6-037e-47b8-8802-ea3eb7d9829e] - Service Save
+2022-12-24 09:51:02.106 [Thread-8] INFO  n.s.m.l.MyService - [4021881a-feae-4224-9069-8ec2006f6b58] - Service Save
+2022-12-24 09:51:02.106 [Thread-9] INFO  n.s.m.l.MyRepository - [c13e57f6-037e-47b8-8802-ea3eb7d9829e] - Repository Save
+2022-12-24 09:51:02.106 [Thread-8] INFO  n.s.m.l.MyRepository - [4021881a-feae-4224-9069-8ec2006f6b58] - Repository Save
+2022-12-24 09:51:02.106 [Thread-4] INFO  n.s.m.l.MyRepository - [d3b24550-41cd-4924-86dc-68dd74d42985] - Repository Save

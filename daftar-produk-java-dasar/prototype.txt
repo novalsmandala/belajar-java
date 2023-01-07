@@ -1,0 +1,22 @@
+DAFTAR PRODUK
+1. Minyak (Rp. 10000)
+2. Beras (Rp. 12500)
+3. Pangsit (Rp. 25000)
+
+MENU:
+1. Tambah Barang
+2. Edit Barang
+3. Hapus Barang
+x. Keluar
+
+TAMBAH BARANG:
+- Nama Produk
+- Harga Produk
+
+EDIT BARANG:
+- Edit Barang
+- Edit Harga
+
+Hapus Barang:
+- Menghapus Barang Bersamaan dengan Menghapus Harga
+

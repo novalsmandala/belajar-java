@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: noval.surya.mandala.thread.ThreadTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.88 s - in noval.surya.mandala.thread.ThreadTest
