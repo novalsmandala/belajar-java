@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/belajar-apache-maven/belajar-apache-maven.iml" filepath="$PROJECT_DIR$/belajar-apache-maven/belajar-apache-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-apache-maven/belajar-apache-maven-app/belajar-apache-maven-app.iml" filepath="$PROJECT_DIR$/belajar-apache-maven/belajar-apache-maven-app/belajar-apache-maven-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-apache-maven/belajar-apache-maven-data/belajar-apache-maven-data.iml" filepath="$PROJECT_DIR$/belajar-apache-maven/belajar-apache-maven-data/belajar-apache-maven-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/belajar-java.iml" filepath="$PROJECT_DIR$/.idea/belajar-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-database/belajar-java-database.iml" filepath="$PROJECT_DIR$/belajar-java-database/belajar-java-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-date-time/belajar-java-date-time.iml" filepath="$PROJECT_DIR$/belajar-java-date-time/belajar-java-date-time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-i18n/belajar-java-i18n.iml" filepath="$PROJECT_DIR$/belajar-java-i18n/belajar-java-i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-logging/belajar-java-logging.iml" filepath="$PROJECT_DIR$/belajar-java-logging/belajar-java-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-lombok/belajar-java-lombok.iml" filepath="$PROJECT_DIR$/belajar-java-lombok/belajar-java-lombok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-reflection/belajar-java-reflection.iml" filepath="$PROJECT_DIR$/belajar-java-reflection/belajar-java-reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-resilience4j/belajar-java-resilience4j.iml" filepath="$PROJECT_DIR$/belajar-java-resilience4j/belajar-java-resilience4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-stream/belajar-java-stream.iml" filepath="$PROJECT_DIR$/belajar-java-stream/belajar-java-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-thread/belajar-java-thread.iml" filepath="$PROJECT_DIR$/belajar-java-thread/belajar-java-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-unit-test/belajar-java-unit-test.iml" filepath="$PROJECT_DIR$/belajar-java-unit-test/belajar-java-unit-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-validation/belajar-java-validation.iml" filepath="$PROJECT_DIR$/belajar-java-validation/belajar-java-validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studi-kasus-java-database-aplikasi-todolist/studi-kasus-java-database-aplikasi-todolist.iml" filepath="$PROJECT_DIR$/studi-kasus-java-database-aplikasi-todolist/studi-kasus-java-database-aplikasi-todolist.iml" />
+    </modules>
+  </component>
+</project>

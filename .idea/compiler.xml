@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="belajar-java-thread" />
+        <module name="studi-kasus-java-database-aplikasi-todolist" />
+        <module name="belajar-java-database" />
+        <module name="belajar-java-i18n" />
+        <module name="belajar-java-date-time" />
+        <module name="belajar-apache-maven-data" />
+        <module name="belajar-java-unit-test" />
+        <module name="belajar-apache-maven-app" />
+        <module name="belajar-java-lombok" />
+        <module name="belajar-java-logging" />
+        <module name="belajar-java-stream" />
+        <module name="belajar-java-reflection" />
+        <module name="belajar-java-validation" />
+        <module name="belajar-java-resilience4j" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="belajar-apache-maven" target="19" />
+      <module name="belajar-apache-maven-app" target="19" />
+      <module name="belajar-apache-maven-data" target="19" />
+      <module name="belajar-java-database" target="19" />
+      <module name="belajar-java-date-time" target="19" />
+      <module name="belajar-java-i18n" target="19" />
+      <module name="belajar-java-logging" target="1.5" />
+      <module name="belajar-java-lombok" target="1.5" />
+      <module name="belajar-java-reflection" target="19" />
+      <module name="belajar-java-resilience4j" target="1.5" />
+      <module name="belajar-java-stream" target="19" />
+      <module name="belajar-java-thread" target="19" />
+      <module name="belajar-java-unit-test" target="19" />
+      <module name="belajar-java-validation" target="1.5" />
+      <module name="studi-kasus-java-database-aplikasi-todolist" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
