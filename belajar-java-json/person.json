@@ -1,0 +1,12 @@
+{
+  "firstName": "Noval",
+  "lastName": "Mandala",
+  "married": false,
+  "age": 18,
+  "address": {
+    "regency": "Kendal",
+    "street": "Pahlawan Semakam",
+    "country": "Indonesia",
+    "provincy": "Jawa Tengah"
+  }
+}
